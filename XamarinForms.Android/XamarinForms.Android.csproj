@@ -45,10 +45,10 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Empty|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)' == 'Empty'">
     <OutputPath>bin\Empty\</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'FromDebug|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)' == 'FromDebug'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\FromDebug\</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
