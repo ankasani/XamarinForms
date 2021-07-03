@@ -28,4 +28,4 @@ jobs:
     - name: Android
       run: |
         nuget restore
-        msbuild XamarinForms/XamarinForms/XamarinForms.Android/XamarinForms.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild /Users/runner/work/XamarinForms/XamarinForms/XamarinForms.Android/XamarinForms.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
